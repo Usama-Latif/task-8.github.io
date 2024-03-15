@@ -1,0 +1,90 @@
+.contact-main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.left-map {
+    width: 50%;
+}
+
+.left-map iframe {
+    width: 100%;
+}
+
+.right-form {
+    width: 50%;
+}
+
+.right-form form {
+    width: 100%;
+}
+
+.right-form form input {
+    padding: 8px 23px 8px 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+
+
+}
+.name-email{
+    width:100%;
+}
+form textarea {
+    padding: 8px 20px 8px 20px;
+}
+
+textarea {
+    width: 100%;
+}
+
+.subject {
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.name {
+    margin-right: 31px;
+    margin-bottom: 18px;
+}
+
+.email {
+    margin-bottom: 18px;
+}
+
+.right-form .btn button{
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor:pointer;
+    background-color: #3a8bcd;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    padding:10px 15px;
+    margin-top: 18px;
+}
+
+
+
+
+
+/* Media Query (max-width: 768px) */
+/* @media screen and (max-width: 768px){
+    .contact-main{
+        display:block;
+    }
+    .left-map{
+        width:100%;
+    }
+    .right-form{
+        width:100%;
+        margin-top:20px;
+    }
+} */
